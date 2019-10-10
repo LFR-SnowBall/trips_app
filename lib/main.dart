@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:trips_app/description_place.dart';
-import 'package:trips_app/header_appbar.dart';
-import 'package:trips_app/review_list.dart';
-import 'package:trips_app/gradient_back.dart';
-import 'package:trips_app/card_image_list.dart';
+import 'package:trips_app/ejecutor_trips.dart';
 
 void main() => runApp(MyApp());
 
@@ -29,21 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home:
-      Scaffold(
-          body:
-          Stack(
-            children: <Widget>[
-              ListView(
-                children: <Widget>[
-                  DescriptionPlace("Canada",4,description),
-                  ReviewList()
-                ],
-              ),
-              HeaderAppBar()
-            ],
-
-          )
-      )
+        EjecutorTrips()
       //MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
