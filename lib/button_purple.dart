@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:trips_app/description_place.dart';
 
 class Buttonpurple extends StatelessWidget{
 
