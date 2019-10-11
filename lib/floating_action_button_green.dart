@@ -19,7 +19,7 @@ class _FloatingActionButtonGreen extends State<FloatingActionButtonGreen>{
     setState(() {
       like=false;
     });
-    Scaffold.of(context).showSnackBar(SnackBar(content: Text("Has quitado de favoritos")));
+    Scaffold.of(context).showSnackBar(SnackBar(content: Text("Has quitado favoritos")));
 
 
 
